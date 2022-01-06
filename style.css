@@ -1,10 +1,14 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+    padding: 100px;
 }
-.exible-container{
+.flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+ .title{
+    text-align: center; 
 }
 .text-color{
     color: rgba(255, 71, 184, 0.973);
@@ -21,7 +25,7 @@ body{
 }
 .half-width{
     width: 50%;
-    padding: 10%;
+    /* padding: 10%; */
      /* padding-left: 50px;
     padding-top: 50px;
     padding-right: 50px;  */
@@ -30,6 +34,9 @@ body{
 .half-width img{
     width: 80%;
 }
+#image{
+    width: 70%;
+}
 .link-button{
     text-decoration: none;
     background-image:linear-gradient(#df977e,rgb(255, 99, 71));
@@ -37,4 +44,57 @@ body{
     padding: 10px 30px;
     border-radius: 5px;
 
+}
+ /* #first-box{
+    background-color: salmon;
+    color: white;
+     border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 40px gray; 
+}
+#scend-box{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#thard-box{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}  */
+#first-box{
+    background: gray;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20px; 
+    border-radius: 10px;
+    /* width: 400px; */
+
+}
+#scend-box{
+    background: burlywood;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    /* width: 400px; */
+}
+#thard-box{
+    background: gainsboro;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    /* width: 400px; */
+}
+/* .mission-area{
+    margin-left: 150px;
+} */
+.images-size{
+    height: 200px;
+    width: 300px;
 }
